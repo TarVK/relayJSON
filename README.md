@@ -4,14 +4,14 @@ A 1 file js library, to handle recursive structures, classes, functions and regu
 # example
 ```js
 var n = {
-          something:{
-            func: function(){
-              console.log("something")
-            }, 
-            regex: /.*/
-          }, 
-          text:"test"
-        };
+    something:{
+        func: function(){
+            console.log("something")
+        }, 
+        regex: /.*/
+    }, 
+    text:"test"
+};
 n.something.n = n; //create circular/recursive structure
 
 var json = relayJSON.stringify(n, null, 4); //create pretty json, just as you would do with normal JSON

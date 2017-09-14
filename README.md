@@ -1,7 +1,7 @@
 # relayJSON
 A 1 file js library, to handle recursive structures, classes, functions and regular expressions when converting to JSON.
 
-example:
+# example:
 ```js
 var n = {
           something:{
@@ -29,6 +29,7 @@ now json would look something like this:
 }
 ```
 The notation can quite easily be changed by changing the constants in relayJSON.js
+
 `object:` refers to a circular object structure, this structure will be restored by relayJSON.parse():
 
 ```js

@@ -36,4 +36,4 @@ The notation can quite easily be changed by changing the constants in relayJSON.
 var originalObject = relayJSON.parse(json);
 ```
 
-This system is however not able to restore function scopes, or depencencies of classes or functions
+This system is however not able to restore function scopes, or depencencies of classes and functions
